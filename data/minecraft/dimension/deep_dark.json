@@ -4,8 +4,12 @@
     "type": "minecraft:noise",
     "settings": "minecraft:overworld",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "minecraft:deep_dark"
+      "type": "minecraft:checkerboard",
+      "scale": 0,
+      "biomes": [
+        "minecraft:deep_dark",
+        "minecraft:plains"
+      ]
     }
   }
 }
